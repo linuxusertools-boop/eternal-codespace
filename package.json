@@ -1,0 +1,16 @@
+{
+  "name": "eternal-codespace",
+  "version": "1.0.0",
+  "description": "Eternal Codespace Terminal with Render Monitor",
+  "scripts": {
+    "start": "node space-terminal.js",
+    "eternal": "bash eternal-worker.sh",
+    "monitor": "node monitor.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
